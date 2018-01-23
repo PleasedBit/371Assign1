@@ -1,6 +1,6 @@
 make:
-	gcc -std=c99 assignment.c -o assignment.o -lpthread
+	gcc -std=c99 craigstestcode.c -o craigstestcode.o -lpthread
 run:
-	./assignment.o
+	./craigstestcode.o
 clean:
 	rm *.o
