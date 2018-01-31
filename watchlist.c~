@@ -1,0 +1,15 @@
+#include <errno.h>
+#include <poll.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/inotify.h>
+#include <unistd.h>
+
+int main(){
+
+  inotify_init();
+
+  inotify_add_watch
+
+  return 0;
+}
